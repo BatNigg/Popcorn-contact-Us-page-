@@ -1,0 +1,342 @@
+
+  
+body{
+  background-color: black;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.bovy{
+  height: 1000px;
+  overflow-x: hidden;
+}
+
+.container{
+  background-color:#B50717;
+  height: 65vh;
+  width: 41vh;
+  transform: translateY(11%);
+  display: flex;
+  position:relative;
+  left: 30px;
+  border-radius: 20px;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.header-text{
+  color: white;
+  display:flex;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Arial;
+  position:relative;
+  left: 460px;
+  white-space: nowrap;
+}
+
+#call-image{
+  position: absolute;
+  top: 52px;
+  left: -40px;
+}
+
+#email-image{
+  position: absolute;
+  top: 52px;
+  left: -175px;
+}
+
+#mail{
+  position: relative;
+  top: 32px;
+  left: -130px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Arial;
+}
+
+#address{
+  position: relative;
+  top: 18px;
+  left: -130px;
+  color: white;
+  font-family: courier;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#call{
+  position: relative;
+  top: 32px;
+  left: -5px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Arial;
+}
+
+.call-container{
+ position: relative;
+  top: 80px;
+  left: 260px;
+}
+
+#number{
+  position: relative;
+  top: 18px;
+  left: -5px;
+  color: white;
+  font-family: courier;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.email-container{
+  position: relative;
+  top: 160px;
+  left: 280px;
+}
+
+.social-container{
+  position: relative;
+  top: 240px;
+  left: 190px;
+}
+
+#social-image{
+  position: absolute;
+  top: 52px;
+  left: -258px;
+}
+
+#social{
+  position: relative;
+  top: 32px;
+  left: -220px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Arial;
+}
+
+#socials{
+  position: relative;
+  top: 18px;
+  left: -220px;
+  color: white;
+  font-family: courier;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.find-container{
+  position: relative;
+  top: 330px;
+  left: 75px;
+}
+
+#find{
+  position: relative;
+  top: 32px;
+  left: -220px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Arial;
+  white-space: nowrap;
+}
+
+#finds{
+  position: relative;
+  top: 18px;
+  left: -220px;
+  color: white;
+  font-family: courier;
+  font-weight: bold;
+  white-space: nowrap;
+  font-size: 15px;
+}
+
+#writeUsButton{
+  color: white;
+  position: relative;
+  left: -350px;
+  top: 550px;
+  width: 80px;
+  height: 35px;
+  background-color: #B50717;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+
+.span{
+  white-space: nowrap;
+  padding: 5px;
+}
+
+#barbie{
+ position:relative;
+ left: -310px;
+ top: 400px;
+}
+
+.copy{
+  color: white;
+  position: relative;
+  top: 220px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  font-family: Arial;
+}
+
+#home{
+  position: relative;
+  left: -100px;
+  top: 10px;
+  float: right;
+  text-decoration: none;
+  color: #B50717;
+  font-weight: bold;
+  font-family: Arial;
+}
+
+#faq{
+  position: relative;
+  left: 10px;
+  top: 10px;
+  float: right;
+  text-decoration: none;
+  color: #B50717;
+  font-weight: bold;
+  font-family: Arial;
+}
+
+.navbar{
+  background-color: #1D1D1D;
+  height: 45px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.content{
+    position: absolute;
+    top: 0;
+    right: -400px;
+    width: 400px;
+    height: 650px;
+    background-color: #B50717;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 20px; 
+    z-index: 2;
+  }
+  .show {
+    transform: translateX(-100%);
+  }
+  
+  .header-text-two{
+    color: white;
+    font-weight: bold;
+   font-family: Arial; 
+   font-size: 18px;
+   position:relative;
+   left: 60px;
+   top: 5px;
+  }
+  
+  #card{
+  position: absolute;
+  top: 18px;
+  left: 26px;
+  
+  }
+  
+  #nameInput{
+    position:relative;
+    left: 50px;
+    width: 300px;
+    height: 30px;
+    top: 3pc;
+    background-color: #1D1D1D;
+    border: 1px solid #1D1D1D;
+    color: white;
+    font-family: courier;
+  }
+  
+  ::placeholder{
+    font-family: courier;
+    position: absolute;
+  }
+  
+ #messageIinput::placeholder{
+   position: absolute;
+   top: 5px;
+ }
+  
+    #emailInput{
+    position:relative;
+    left: 50px;
+    width: 300px;
+    height: 30px;
+    top: 6pc;
+    background-color: #1D1D1D;
+    border: 1px solid #1D1D1D;
+    color: white;
+    font-family: courier
+  }
+  
+    #messageInput{
+    position:relative;
+    left: 50px;
+    width: 300px;
+    height: 90px;
+    top: 9pc;
+    background-color: #1D1D1D;
+    border: 1px solid #1D1D1D;
+    color: white;
+    font-family: courier;
+    word-wrap: break-word;
+  }
+  
+  #backButton{
+   color: white;
+  position: relative;
+  top: 330px;
+  left: -230px;
+  width: 80px;
+  height: 35px;
+  background-color: #B50717;
+  border: 1px solid white;
+  border-radius: 20px;
+  }
+  
+  #deadpool{
+    position: absolute;
+    top: 200px;
+    left: 50px;
+  }
+  
+  .slideback{
+    transform: translateX(0)
+  }
+  
+  #sendButton{
+   position: relative;
+   top:200px;
+   left: 80px;
+   width: 250px;
+   height: 40px;
+   border-radius: 20px;
+   padding: 5px;
+   border: 1px solid #1D1D1D;
+   background-color: #1D1D1D;
+   color: white;
+  }
+
